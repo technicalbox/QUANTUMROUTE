@@ -1,0 +1,23 @@
+# Core
+fastapi>=0.115
+uvicorn[standard]>=0.34
+pydantic>=2.11
+
+# Solver
+ortools>=9.10
+
+# Quantum
+qiskit>=1.4
+qiskit-aer>=0.16
+qiskit-algorithms>=0.3
+qiskit_optimization>=0.6
+
+# HTTP
+httpx>=0.28
+
+# Testing
+pytest>=8.3
+pytest-asyncio>=0.25
+
+# Utilities
+python-dotenv>=1.1

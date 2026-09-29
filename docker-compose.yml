@@ -1,0 +1,11 @@
+services:
+  quantumroute:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OSRM_BASE_URL=http://router.project-osrm.org
+      - APP_ENV=development
+      - SOLVER_TIME_LIMIT=20
+    volumes:
+      - ./_osrm_cache:/app/_osrm_cache
